@@ -256,9 +256,8 @@
 **Endpoint:** `GET /api/tasks`
 
 ***REQUEST***
-```json
+
  Não tem body, somente o token deve ser fornecido no header.
-```
 
 ***RESPONSE***
 ```json
