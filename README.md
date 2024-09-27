@@ -6,7 +6,7 @@
 [SWAGGER_BADGE]:https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
 
 
-<h1 align="center" style="font-weight: bold;">Gerenciador de Tarefas </h1>
+<h1 align="center" style="font-weight: bold;">Back-end Gerenciador de Tarefas </h1>
 
 <div style="text-align: center;">
 
