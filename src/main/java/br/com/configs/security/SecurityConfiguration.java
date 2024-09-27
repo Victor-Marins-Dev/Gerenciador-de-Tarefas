@@ -33,8 +33,6 @@ public class SecurityConfiguration {
                 	.requestMatchers(AUTH_WHITELIST).permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/auth/**").permitAll()
                     .requestMatchers(HttpMethod.PATCH,"/api/users/update").authenticated()
-                    .requestMatchers(HttpMethod.GET,"/api/tags/default").authenticated()
-                    .requestMatchers("/api/tags/default/**").hasRole("ADMIN")
                     .requestMatchers("/api/users/**").hasRole("ADMIN")
                     .anyRequest().authenticated()                                     
                 )
