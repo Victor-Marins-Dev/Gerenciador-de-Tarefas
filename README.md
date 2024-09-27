@@ -116,8 +116,14 @@
 8. **Utilizando a aplicação**  
     Por fim basta executar o Postman e fazer as requisoções http de acordo com a documentação.
 
+<h2 id="started"> Overview dos Endpoints </h2>
 
-<h2 id="routes">📍 Alguns endpoints da API</h2>
+![](images/img1.jpg)
+![](images/img2.jpg)
+![](images/img3.jpg)
+![](images/img4.jpg)
+
+<h2 id="routes">📍 Alguns Endpoints da API</h2>
 
 ### Autenticação
 
@@ -420,3 +426,4 @@
 ```
 
 **Esses foram alguns endpoints, você pode conferir o resto na documentação do swagger!**
+
