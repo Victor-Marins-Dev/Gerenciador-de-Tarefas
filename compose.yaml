@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.3.0
+    container_name: db-to-do-list
+    environment:
+      MYSQL_DATABASE: project1
+      MYSQL_ROOT_PASSWORD: 1234567
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  API:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: api-to-do-list
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/project1
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234567
+    ports:
+      - "8085:8085"
+    depends_on:
+      - mysql
+
+volumes:
+  mysql-data:
