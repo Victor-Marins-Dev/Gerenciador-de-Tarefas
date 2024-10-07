@@ -43,6 +43,14 @@
 * DTOs
 * Exception Handler
 * Documentação com Swagger
+
+<h2>💡 O que foi feito?</h2>
+
+Desenvolvi o back-end de um sistema de Gerenciamento de Tarefas utilizando Java e Spring Boot. Implementei autenticação e segurança por meio de um controle de acessos baseado em cargos (roles), garantindo que os usuários tenham permissões específicas para os recursos disponíveis. A aplicação conecta-se a um banco de dados MySQL, proporcionando persistência segura e eficiente dos dados. 
+
+Entre as funcionalidades implementadas estão a criação, edição, remoção e pesquisa de tarefas, subtarefas e tags. Adicionei a possibilidade de realizar buscas personalizadas, com base em parâmetros fornecidos pelo usuário. A API foi containerizada com Docker, permitindo a execução da aplicação e do banco de dados em containers distintos. 
+
+Além disso, implementei paginação e links utilizando Spring HATEOAS para uma navegação mais intuitiva entre os recursos da API. Realizei testes automatizados (unitários e de integração) para garantir a robustez e a qualidade do código. Por fim, documentei a API utilizando Swagger, facilitando a integração e uso por outros desenvolvedores. 
  
 <h2 id="started">🚀 Como utilizar?</h2>
 
