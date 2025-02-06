@@ -88,17 +88,17 @@ Além disso, implementei paginação e links utilizando Spring HATEOAS para uma 
 3. **Clonar o repositório**  
    Clone o projeto do GitHub:
    ```bash
-   git clone https://github.com/Victor-Marins-Dev/To-Do-List.git
+   git clone https://github.com/Victor-Marins-Dev/Gerenciador-de-Tarefas.git
    ```
     Se estiver usando SSH:
     ```bash
-   git clone git@github.com:Victor-Marins-Dev/To-Do-List.git
+   git clone git@github.com:Victor-Marins-Dev/Gerenciador-de-Tarefas.git
    ```
 
 4. **Ir para o diretório do projeto**  
    Navegue até a pasta do projeto clonado:
    ```bash
-   cd To-Do-List
+   cd Gerenciador-de-Tarefas
    ```
 5. **Construir e rodar os contêineres**  
    No diretório do projeto, execute o comando abaixo para construir as imagens e iniciar os containers com o Docker Compose:
