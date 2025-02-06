@@ -2,7 +2,7 @@
 services:
   mysql:
     image: mysql:8.3.0
-    container_name: db-to-do-list
+    container_name: db-gerenciador-de-tarefas
     environment:
       MYSQL_DATABASE: project1
       MYSQL_ROOT_PASSWORD: 1234567
@@ -15,7 +15,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: api-to-do-list
+    container_name: api-gerenciador-de-tarefas
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/project1
       SPRING_DATASOURCE_USERNAME: root

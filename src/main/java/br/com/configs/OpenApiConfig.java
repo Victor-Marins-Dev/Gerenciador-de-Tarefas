@@ -14,7 +14,7 @@ public class OpenApiConfig {
 	public OpenAPI customOpenApi() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("To Do List")
+						.title("Gerenciador de Tarefas")
 						.version("v1")
 						.description("API developed to consolidate studies")
 						.termsOfService("")

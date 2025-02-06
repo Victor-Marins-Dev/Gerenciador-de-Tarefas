@@ -54,19 +54,16 @@ Além disso, implementei paginação e links utilizando Spring HATEOAS para uma 
  
 <h2 id="started">🚀 Como utilizar?</h2>
 
+### OBS
+   - Não criei um arquivo .env e deixei as variáveis de ambiente expostas de propósito, com o intuito de facilitar para quem está clonando o projeto.
+
 ###  Pré-requisitos
 
 1. **Instalar Docker Desktop**  
    Baixe e instale o Docker Desktop de acordo com o seu sistema operacional:  
 
    - [Docker Desktop para Windows/Mac](https://www.docker.com/products/docker-desktop)
-
-   No Linux, instale o Docker Engine e Docker Compose:
-   ```bash
-   sudo apt-get update
-   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-   ```
-
+   - 
 2. **Verifique a instalação do Docker**  
    Após a instalação, execute os seguintes comandos no terminal para garantir que o Docker está instalado corretamente:
    ```bash
@@ -91,17 +88,17 @@ Além disso, implementei paginação e links utilizando Spring HATEOAS para uma 
 3. **Clonar o repositório**  
    Clone o projeto do GitHub:
    ```bash
-   git clone https://github.com/Victor-Marins-Dev/To-Do-List.git
+   git clone https://github.com/Victor-Marins-Dev/Gerenciador-de-Tarefas.git
    ```
     Se estiver usando SSH:
     ```bash
-   git clone git@github.com:Victor-Marins-Dev/To-Do-List.git
+   git clone git@github.com:Victor-Marins-Dev/Gerenciador-de-Tarefas.git
    ```
 
 4. **Ir para o diretório do projeto**  
    Navegue até a pasta do projeto clonado:
    ```bash
-   cd To-Do-List
+   cd Gerenciador-de-Tarefas
    ```
 5. **Construir e rodar os contêineres**  
    No diretório do projeto, execute o comando abaixo para construir as imagens e iniciar os containers com o Docker Compose:
@@ -118,6 +115,7 @@ Além disso, implementei paginação e links utilizando Spring HATEOAS para uma 
     ```bash
     docker ps
     ```
+    Caso só apareça o container do banco de dados, vá até o docker hub e suba o container da aplicação novamente.
 7. **Acessar a documentação**  
    Feita a verificação que os containers estão rodando perfeitamente, basta abrir o navegador e acessar a URL da documentação: [http://localhost:8085/swagger-ui/index.html](http://localhost:8085/swagger-ui/index.html).
 
@@ -433,4 +431,5 @@ Além disso, implementei paginação e links utilizando Spring HATEOAS para uma 
 ```
 
 **Esses foram alguns endpoints, você pode conferir o resto na documentação do swagger!**
+
 
